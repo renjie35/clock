@@ -1,5 +1,5 @@
 #!/bin/bash
 randNum=$(($RANDOM%15+40))
-curl www.punchclock.com >> /punchclock 2>&1
+#curl www.punchclock.com >> /punchclock 2>&1
 echo $[randNum]" 8 * * 1-5 bash /crontabs/randroot" > /crontabs/root
 crontab /crontabs/root
