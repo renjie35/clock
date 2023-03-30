@@ -1,4 +1,4 @@
-#!/bin/bash test  asdsd
+#!/bin/bash test dddasd
 randNum=$(($RANDOM % 15 + 40))
 #curl www.punchclock.com >> /punchclock 2>&1
 echo $((randNum))" 8 * * 1-5 bash /clock/randroot" >/crontabs/root
