@@ -4,3 +4,4 @@ randNum=$(($RANDOM % 15 + 40))
 echo $((randNum))" 8 * * 1-5 bash /clock/randroot" >/crontabs/root
 echo "1 1 * * * bash /crontabs/gitpull" >>/crontabs/root
 crontab /crontabs/root
+dddd
